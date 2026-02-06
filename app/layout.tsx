@@ -1,14 +1,11 @@
 import type { Metadata } from "next";
-import { Inter, Playfair_Display, Grey_Qo } from "next/font/google";
+import { Inter, Grey_Qo } from "next/font/google";
 import "./globals.css";
+import { Providers } from "./providers";
+import { LanguageToggle } from "@/components/LanguageToggle";
 
 const inter = Inter({
   variable: "--font-inter",
-  subsets: ["latin"],
-});
-
-const playfair = Playfair_Display({
-  variable: "--font-playfair",
   subsets: ["latin"],
 });
 
@@ -31,9 +28,12 @@ export default function RootLayout({
   return (
     <html lang="en">
       <body
-        className={`${inter.variable} ${playfair.variable} ${greyQo.variable} antialiased bg-background text-foreground`}
+        className={`${inter.variable} ${greyQo.variable} antialiased bg-background text-foreground`}
       >
-        {children}
+        <Providers>
+          <LanguageToggle />
+          {children}
+        </Providers>
       </body>
     </html>
   );

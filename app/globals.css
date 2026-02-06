@@ -2,7 +2,7 @@
 
 @theme {
   --font-sans: var(--font-inter);
-  --font-serif: var(--font-playfair);
+  /* --font-serif: var(--font-playfair); Removed as per design.md */
   --font-display: var(--font-grey-qo);
   
   --color-background: var(--background);
@@ -11,7 +11,7 @@
 }
 
 :root {
-  /* Design System Colors */
+  /* Design System Colors from design.md */
   --background: #EFEBD6;
   --foreground: #333333;
   --accent: #FFC107;

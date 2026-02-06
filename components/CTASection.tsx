@@ -11,12 +11,12 @@ interface CTASectionProps {
 export function CTASection({ id, title, linkText, linkHref, className = "" }: CTASectionProps) {
   return (
     <section id={id} className={`w-full py-24 flex flex-col items-center justify-center text-center px-4 ${className}`}>
-      <h2 className="font-serif text-4xl md:text-5xl text-stone-900 mb-6 max-w-2xl">
+      <h2 className="font-display text-4xl md:text-5xl text-foreground mb-6 max-w-2xl">
         {title}
       </h2>
       <Link 
         href={linkHref}
-        className="text-lg border-b border-stone-800 pb-1 hover:text-stone-600 hover:border-stone-600 transition-colors"
+        className="font-sans text-lg border-b border-foreground pb-1 hover:text-stone-500 hover:border-stone-500 transition-colors text-foreground"
       >
         {linkText}
       </Link>

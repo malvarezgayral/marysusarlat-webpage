@@ -1,0 +1,53 @@
+{
+    "header": {
+        "title": "Mary Su Sarlat",
+        "nav": {
+            "books": "Libros",
+            "interviews": "Entrevistas",
+            "travels": "Viajes",
+            "about": "Sobre mí",
+            "contact": "Contacto"
+        }
+    },
+    "book": {
+        "title": "Título del libro",
+        "description": "Sinopsis del libro lorem ipsum dolor sit amet, consectetur adipiscing elit. Etiam volutpat massa sit amet euismod ultrices.",
+        "get_it": "Conseguirlo"
+    },
+    "cta": {
+        "interviews": {
+            "title": "¿Te interesa saber más de mis trabajos?",
+            "link": "Escuchá mis entrevistas"
+        },
+        "travels": {
+            "title": "Recorramos el mundo juntos",
+            "link": "Hablemos de mis viajes"
+        }
+    },
+    "about": {
+        "title": "María Susana Apellido",
+        "desc_1": "Biografía breve lorem ipsum dolor sit amet, consectetur adipiscing elit. Etiam volutpat massa sit amet euismod ultrices.",
+        "desc_2": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Etiam volutpat massa sit amet euismod ultrices."
+    },
+    "contact": {
+        "title": "Contactame",
+        "form": {
+            "name": "Nombre",
+            "surname": "Apellido",
+            "email": "Email",
+            "message": "Mensaje",
+            "submit": "Enviar Mensaje",
+            "sending": "Enviando...",
+            "success_title": "¡Gracias!",
+            "success_message": "Hemos recibido tu mensaje correctamente. Nos pondremos en contacto contigo pronto.",
+            "close": "Cerrar"
+        }
+    },
+    "footer": {
+        "rights": "All Rights Reserved."
+    },
+    "language": {
+        "es": "ES",
+        "en": "EN"
+    }
+}
