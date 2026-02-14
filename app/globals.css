@@ -25,3 +25,16 @@
     @apply font-display text-foreground;
   }
 }
+
+@keyframes blink-brown {
+  0%, 100% {
+    background-color: #6b6346;
+  }
+  50% {
+    background-color: #EFEBD6;
+  }
+}
+
+.animate-blink-brown:hover {
+  animation: blink-brown 3s infinite;
+}
