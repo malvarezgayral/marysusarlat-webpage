@@ -9,11 +9,23 @@
             "contact": "Contacto"
         }
     },
-    "book": {
-        "title": "Título del libro",
-        "description": "Sinopsis del libro lorem ipsum dolor sit amet, consectetur adipiscing elit. Etiam volutpat massa sit amet euismod ultrices.",
-        "get_it": "Conseguirlo"
-    },
+    "books": [
+        {
+            "title": "El Jardín de Klingsor",
+            "description": "Saúl Cáceres, afamado cirujano ortopedista, ha perdido su alma, mas él no lo sabe. Una persona cercana, se ha dado cuenta de ello, y le insta a realizar un viaje a la bella Costa Amalfitana de Italia. Tras meditarlo, Saúl acepta y parte, sin él saberlo, hacia una aventura que cambiará su vida por completo. Sucederá que en Ravello, y bajo el embrujo de la música wagneriana nacida en ese sitio, la vida le irá develando situaciones impensadas, obvias para todos menos para él, mostrándole que la magia existe cuando el corazón se abre a nuevas experiencias.",
+            "get_it": "Conseguirlo"
+        },
+        {
+            "title": "Historia Novelada de la Casa Fox",
+            "description": "A través de una combinación de historia y novela, “Historia de la Casa Fox” sigue el viaje de don Miguel de Fox, un descendiente de nobles aragoneses, mientras lucha por proteger su herencia y la memoria de sus ancestros. Desde la época de los Templarios hasta la España moderna, Miguel descubre los secretos y desafíos de su linaje, enfrentando problemas legales y sociales mientras honra la historia de su familia. El relato revela conexiones históricas con los antiguos caballeros templarios y desentraña conflictos culturales y religiosos en un pueblo donde la memoria ancestral se enfrenta a la compleja modernidad.",
+            "get_it": "Conseguirlo"
+        },
+        {
+            "title": "La Desaparición del Donante Francés",
+            "description": "La licenciada en Arte Minerva Molé es enviada desde su Francia natal a Barcelona, donde deberá tomar contacto con el capitán de Policía Jordi Betancourt. Un extranjero ha donado unas pinturas valiosas al museo donde se desempeña Minerva, para luego desaparecer sin dejar rastros. Una misteriosa organización denominada “Los Benefactores” entra en escena, obligando a redoblar los esfuerzos de Francia y España, también Canadá, para romper un entramado de siniestralidades que se están desarrollando en Europa por parte de la misma. Implantes de microchips, asesinatos y el involucramiento de personajes simples saliendo de sus opacos rincones, dan sustento a esta trama de gran acción y suspenso.",
+            "get_it": "Conseguirlo"
+        }
+    ],
     "cta": {
         "interviews": {
             "title": "¿Te interesa saber más de mis trabajos?",

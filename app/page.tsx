@@ -19,25 +19,16 @@ export default function Home() {
       <div className="w-full h-12 md:h-24 bg-white rounded-t-[50%] md:rounded-t-[80%] -mb-8 md:-mb-12 z-0 relative transform scale-x-125 opacity-40"></div>
       
       <div id="books" className="flex flex-col w-full items-center gap-12 py-12 relative z-10">
-        <BookSection 
-          title={t('book.title')}
-          description={t('book.description')}
-          imageAlt="Cover of Book 1"
-          getItText={t('book.get_it')}
-        />
-        <BookSection 
-          title={t('book.title')}
-          description={t('book.description')}
-          imageAlt="Cover of Book 2"
-          reverse
-          getItText={t('book.get_it')}
-        />
-        <BookSection 
-          title={t('book.title')}
-          description={t('book.description')}
-          imageAlt="Cover of Book 3"
-          getItText={t('book.get_it')}
-        />
+        {(t('books', { returnObjects: true }) as Array<{ title: string; description: string; get_it: string }>).map((book, index) => (
+          <BookSection 
+            key={index}
+            title={book.title}
+            description={book.description}
+            imageAlt={`Cover of ${book.title}`}
+            reverse={index % 2 !== 0}
+            getItText={book.get_it}
+          />
+        ))}
       </div>
 
       {/* Wavy Background CTA Section */}

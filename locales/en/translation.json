@@ -9,11 +9,23 @@
             "contact": "Contact"
         }
     },
-    "book": {
-        "title": "Book Title",
-        "description": "Book synopsis lorem ipsum dolor sit amet, consectetur adipiscing elit. Etiam volutpat massa sit amet euismod ultrices.",
-        "get_it": "Get it"
-    },
+    "books": [
+        {
+            "title": "The Garden of Klingsor",
+            "description": "Saúl Cáceres, a famed orthopedic surgeon, has lost his soul, but he doesn't know it. A close person has realized this and urges him to take a trip to the beautiful Amalfi Coast in Italy. After meditating on it, Saúl accepts and departs, unknowingly, towards an adventure that will change his life completely. It will happen that in Ravello, and under the spell of Wagnerian music born in that place, life will unveil unexpected situations, obvious to everyone but him, showing him that magic exists when the heart opens to new experiences.",
+            "get_it": "Get it"
+        },
+        {
+            "title": "Fictionalized History of the Fox House",
+            "description": "Through a combination of history and novel, \"History of the Fox House\" follows the journey of Don Miguel de Fox, a descendant of Aragonese nobles, as he fights to protect his heritage and the memory of his ancestors. From the time of the Templars to modern Spain, Miguel discovers the secrets and challenges of his lineage, facing legal and social problems while honoring his family's history. The story reveals historical connections with the ancient Knights Templar and unravels cultural and religious conflicts in a town where ancestral memory faces complex modernity.",
+            "get_it": "Get it"
+        },
+        {
+            "title": "The Disappearance of the French Donor",
+            "description": "Art graduate Minerva Molé is sent from her native France to Barcelona, where she must make contact with Police Captain Jordi Betancourt. A foreigner has donated valuable paintings to the museum where Minerva works, only to disappear without a trace. A mysterious organization called \"The Benefactors\" enters the scene, forcing France and Spain, as well as Canada, to redouble their efforts to break a network of sinister events developing in Europe by them. Microchip implants, murders, and the involvement of simple characters emerging from their opaque corners support this plot of great action and suspense.",
+            "get_it": "Get it"
+        }
+    ],
     "cta": {
         "interviews": {
             "title": "Interested in knowing more about my work?",
