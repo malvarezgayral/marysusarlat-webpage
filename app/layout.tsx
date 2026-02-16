@@ -16,7 +16,7 @@ const greyQo = Grey_Qo({
 });
 
 export const metadata: Metadata = {
-  title: "María Susarlat",
+  title: "María Su Sarlat",
   description: "Proyectos de arquitectura y diseño con un enfoque atemporal y esencial.",
 };
 

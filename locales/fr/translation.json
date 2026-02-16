@@ -1,0 +1,66 @@
+{
+    "header": {
+        "title": "Mary Su Sarlat",
+        "nav": {
+            "books": "Livres",
+            "interviews": "Entretiens",
+            "travels": "Voyages",
+            "about": "À propos de moi",
+            "contact": "Contact"
+        }
+    },
+    "books": [
+        {
+            "title": "Le Jardin de Klingsor",
+            "description": "Saúl Cáceres, célèbre chirurgien orthopédiste, a perdu son âme, mais il ne le sait pas. Une personne proche s'en est rendu compte et l'incite à faire un voyage sur la magnifique côte amalfitaine en Italie. Après réflexion, Saúl accepte et part, sans le savoir, vers une aventure qui changera complètement sa vie. Il se passera qu'à Ravello, et sous le charme de la musique wagnérienne née en ce lieu, la vie lui dévoilera des situations inattendues, évidentes pour tous sauf pour lui, lui montrant que la magie existe lorsque le cœur s'ouvre à de nouvelles expériences.",
+            "get_it": "L'obtenir"
+        },
+        {
+            "title": "Histoire Romancée de la Maison Fox",
+            "description": "À travers une combinaison d'histoire et de roman, \"Histoire de la Maison Fox\" suit le voyage de Don Miguel de Fox, descendant de nobles aragonais, alors qu'il se bat pour protéger son héritage et la mémoire de ses ancêtres. De l'époque des Templiers à l'Espagne moderne, Miguel découvre les secrets et les défis de sa lignée, affrontant des problèmes juridiques et sociaux tout en honorant l'histoire de sa famille. Le récit révèle des liens historiques avec les anciens Chevaliers Templiers et démêle les conflits culturels et religieux dans une ville où la mémoire ancestrale fait face à la complexité moderne.",
+            "get_it": "L'obtenir"
+        },
+        {
+            "title": "La Disparition du Donateur Français",
+            "description": "Minerva Molé, diplômée en histoire de l'art, est envoyée de sa France natale à Barcelone, où elle doit prendre contact avec le capitaine de police Jordi Betancourt. Un étranger a fait don de tableaux précieux au musée où travaille Minerva, pour ensuite disparaître sans laisser de trace. Une mystérieuse organisation appelée \"Les Bienfaiteurs\" entre en scène, obligeant la France et l'Espagne, ainsi que le Canada, à redoubler d'efforts pour briser un réseau d'événements sinistres se développant en Europe par leur fait. Implants de micropuces, meurtres et implication de personnages simples émergeant de leurs coins opaques soutiennent cette intrigue pleine d'action et de suspense.",
+            "get_it": "L'obtenir"
+        }
+    ],
+    "cta": {
+        "interviews": {
+            "title": "Intéressé à en savoir plus sur mon travail ?",
+            "link": "Écoutez mes entretiens"
+        },
+        "travels": {
+            "title": "Voyageons ensemble à travers le monde",
+            "link": "Parlons de mes voyages"
+        }
+    },
+    "about": {
+        "title": "María Susana Sarlat",
+        "desc_1": "Brève biographie lorem ipsum dolor sit amet, consectetur adipiscing elit. Etiam volutpat massa sit amet euismod ultrices.",
+        "desc_2": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Etiam volutpat massa sit amet euismod ultrices."
+    },
+    "contact": {
+        "title": "Contactez-moi",
+        "form": {
+            "name": "Prénom",
+            "surname": "Nom",
+            "email": "Email",
+            "message": "Message",
+            "submit": "Envoyer le message",
+            "sending": "Envoi en cours...",
+            "success_title": "Merci !",
+            "success_message": "Nous avons bien reçu votre message. Nous vous contacterons bientôt.",
+            "close": "Fermer"
+        }
+    },
+    "footer": {
+        "rights": "Tous droits réservés."
+    },
+    "language": {
+        "es": "ES",
+        "en": "EN",
+        "fr": "FR"
+    }
+}

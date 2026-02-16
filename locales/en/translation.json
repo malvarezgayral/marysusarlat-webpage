@@ -37,7 +37,7 @@
         }
     },
     "about": {
-        "title": "María Susana Surname",
+        "title": "María Susana Sarlat",
         "desc_1": "Brief biography lorem ipsum dolor sit amet, consectetur adipiscing elit. Etiam volutpat massa sit amet euismod ultrices.",
         "desc_2": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Etiam volutpat massa sit amet euismod ultrices."
     },
@@ -60,6 +60,7 @@
     },
     "language": {
         "es": "ES",
-        "en": "EN"
+        "en": "EN",
+        "fr": "FR"
     }
 }
