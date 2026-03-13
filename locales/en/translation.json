@@ -57,7 +57,8 @@
             "sending": "Sending...",
             "success_title": "Thank you!",
             "success_message": "We have received your message correctly. We will contact you soon.",
-            "close": "Close"
+            "close": "Close",
+            "error": "Something went wrong. Please try again later."
         }
     },
     "footer": {

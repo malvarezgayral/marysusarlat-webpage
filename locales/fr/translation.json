@@ -57,7 +57,8 @@
             "sending": "Envoi en cours...",
             "success_title": "Merci !",
             "success_message": "Nous avons bien reçu votre message. Nous vous contacterons bientôt.",
-            "close": "Fermer"
+            "close": "Fermer",
+            "error": "Une erreur s'est produite. Veuillez réessayer plus tard."
         }
     },
     "footer": {

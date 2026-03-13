@@ -7,16 +7,20 @@ import { useTranslation } from 'react-i18next';
 
 export function ContactForm() {
   const { t } = useTranslation();
-  const [pending, setPending] = useState(false);
-  const [showModal, setShowModal] = useState(false);
+  const [pending, setPending]       = useState(false);
+  const [showModal, setShowModal]   = useState(false);
+  const [errorMsg, setErrorMsg]     = useState<string | null>(null);
 
   async function handleSubmit(formData: FormData) {
     setPending(true);
+    setErrorMsg(null);
     try {
       await submitContactForm(formData);
       setShowModal(true);
+      // Clear form fields on success
+      (document.getElementById('contact-form') as HTMLFormElement)?.reset();
     } catch (error) {
-      console.error('Error submitting form:', error);
+      setErrorMsg(error instanceof Error ? error.message : t('contact.form.error'));
     } finally {
       setPending(false);
     }
@@ -24,22 +28,26 @@ export function ContactForm() {
 
   return (
     <>
-      <form action={handleSubmit} className="flex flex-col gap-6 w-full max-w-lg font-sans">
+      <form
+        id="contact-form"
+        action={handleSubmit}
+        className="flex flex-col gap-6 w-full max-w-lg font-sans"
+      >
         <div className="flex flex-col md:flex-row gap-4">
           <div className="flex flex-col gap-2 w-full">
             <label htmlFor="name" className="text-sm uppercase tracking-wider text-foreground/60">{t('contact.form.name')}</label>
-            <input 
+            <input
               required
-              name="name" 
+              name="name"
               id="name"
               className="bg-transparent border-b border-foreground/30 py-2 focus:outline-none focus:border-accent transition-colors text-foreground"
             />
           </div>
           <div className="flex flex-col gap-2 w-full">
             <label htmlFor="surname" className="text-sm uppercase tracking-wider text-foreground/60">{t('contact.form.surname')}</label>
-            <input 
+            <input
               required
-              name="surname" 
+              name="surname"
               id="surname"
               className="bg-transparent border-b border-foreground/30 py-2 focus:outline-none focus:border-accent transition-colors text-foreground"
             />
@@ -48,10 +56,10 @@ export function ContactForm() {
 
         <div className="flex flex-col gap-2">
           <label htmlFor="email" className="text-sm uppercase tracking-wider text-foreground/60">{t('contact.form.email')}</label>
-          <input 
+          <input
             required
             type="email"
-            name="email" 
+            name="email"
             id="email"
             className="bg-transparent border-b border-foreground/30 py-2 focus:outline-none focus:border-accent transition-colors text-foreground"
           />
@@ -59,17 +67,21 @@ export function ContactForm() {
 
         <div className="flex flex-col gap-2">
           <label htmlFor="message" className="text-sm uppercase tracking-wider text-foreground/60">{t('contact.form.message')}</label>
-          <textarea 
+          <textarea
             required
-            name="message" 
+            name="message"
             id="message"
             rows={4}
             className="bg-transparent border-b border-foreground/30 py-2 focus:outline-none focus:border-accent transition-colors resize-none text-foreground"
           />
         </div>
 
-        <Button 
-          type="submit" 
+        {errorMsg && (
+          <p className="text-red-600 text-sm font-sans">{errorMsg}</p>
+        )}
+
+        <Button
+          type="submit"
           disabled={pending}
           className="self-start mt-4"
         >

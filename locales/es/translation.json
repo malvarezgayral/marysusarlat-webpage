@@ -57,7 +57,8 @@
             "sending": "Enviando...",
             "success_title": "¡Gracias!",
             "success_message": "Hemos recibido tu mensaje correctamente. Nos pondremos en contacto contigo pronto.",
-            "close": "Cerrar"
+            "close": "Cerrar",
+            "error": "Algo salió mal. Por favor intentá de nuevo más tarde."
         }
     },
     "footer": {
