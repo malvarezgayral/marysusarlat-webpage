@@ -24,6 +24,11 @@
             "title": "La Disparition du Donateur Français",
             "description": "Minerva Molé, diplômée en histoire de l'art, est envoyée de sa France natale à Barcelone, où elle doit prendre contact avec le capitaine de police Jordi Betancourt. Un étranger a fait don de tableaux précieux au musée où travaille Minerva, pour ensuite disparaître sans laisser de trace. Une mystérieuse organisation appelée \"Les Bienfaiteurs\" entre en scène, obligeant la France et l'Espagne, ainsi que le Canada, à redoubler d'efforts pour briser un réseau d'événements sinistres se développant en Europe par leur fait. Implants de micropuces, meurtres et implication de personnages simples émergeant de leurs coins opaques soutiennent cette intrigue pleine d'action et de suspense.",
             "get_it": "L'obtenir"
+        },
+        {
+            "title": "Le Huitième Tiroir (L'Héritage Templier)",
+            "description": "Une série de découvertes a eu lieu dans les installations d'un manoir seigneurial situé à Cañuelas, Province de Buenos Aires. Abel Zaldívar n'aurait jamais imaginé que l'histoire familiale pourrait lui réserver une telle surprise, lorsqu'il s'apprêtait à mettre de l'ordre dans les documents de son père. Qu'avait-il à voir avec les anciens Chevaliers Templiers? À son avis, absolument rien. Pourtant, la découverte inattendue allait l'entraîner dans des aventures extraordinaires qu'il devrait assumer, bien malgré lui. Lorsque l'Histoire et l'actualité se conjuguent à l'unisson, elles nous offrent une intrigue aux caractéristiques enveloppantes, telles que celles reflétées à travers les pages du Huitième Tiroir.",
+            "get_it": "L'obtenir"
         }
     ],
     "cta": {
@@ -38,8 +43,8 @@
     },
     "about": {
         "title": "María Susana Sarlat",
-        "desc_1": "Brève biographie lorem ipsum dolor sit amet, consectetur adipiscing elit. Etiam volutpat massa sit amet euismod ultrices.",
-        "desc_2": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Etiam volutpat massa sit amet euismod ultrices."
+        "desc_1": "Écrivaine argentino-canadienne consacrée principalement aux romans historiques, qui s'est également aventurée avec succès dans le genre policier et, plus encore, dans le domaine pas toujours facile de l'intrigue internationale.",
+        "desc_2": "Des compositions essayistiques et poétiques font partie de son bagage professionnel, fortement marqué par des voyages aux quatre coins du monde. Sa curiosité innée et sa propension à la recherche des différents sujets qu'elle aime aborder lui ont valu une place au sein de la communauté d'auteurs européens, majoritairement tournés vers l'étude de l'ancienne Ordre du Temple."
     },
     "contact": {
         "title": "Contactez-moi",

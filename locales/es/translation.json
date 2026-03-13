@@ -17,12 +17,17 @@
         },
         {
             "title": "Historia Novelada de la Casa Fox",
-            "description": "A través de una combinación de historia y novela, “Historia de la Casa Fox” sigue el viaje de don Miguel de Fox, un descendiente de nobles aragoneses, mientras lucha por proteger su herencia y la memoria de sus ancestros. Desde la época de los Templarios hasta la España moderna, Miguel descubre los secretos y desafíos de su linaje, enfrentando problemas legales y sociales mientras honra la historia de su familia. El relato revela conexiones históricas con los antiguos caballeros templarios y desentraña conflictos culturales y religiosos en un pueblo donde la memoria ancestral se enfrenta a la compleja modernidad.",
+            "description": "A través de una combinación de historia y novela, \"Historia de la Casa Fox\" sigue el viaje de don Miguel de Fox, un descendiente de nobles aragoneses, mientras lucha por proteger su herencia y la memoria de sus ancestros. Desde la época de los Templarios hasta la España moderna, Miguel descubre los secretos y desafíos de su linaje, enfrentando problemas legales y sociales mientras honra la historia de su familia. El relato revela conexiones históricas con los antiguos caballeros templarios y desentraña conflictos culturales y religiosos en un pueblo donde la memoria ancestral se enfrenta a la compleja modernidad.",
             "get_it": "Conseguirlo"
         },
         {
             "title": "La Desaparición del Donante Francés",
-            "description": "La licenciada en Arte Minerva Molé es enviada desde su Francia natal a Barcelona, donde deberá tomar contacto con el capitán de Policía Jordi Betancourt. Un extranjero ha donado unas pinturas valiosas al museo donde se desempeña Minerva, para luego desaparecer sin dejar rastros. Una misteriosa organización denominada “Los Benefactores” entra en escena, obligando a redoblar los esfuerzos de Francia y España, también Canadá, para romper un entramado de siniestralidades que se están desarrollando en Europa por parte de la misma. Implantes de microchips, asesinatos y el involucramiento de personajes simples saliendo de sus opacos rincones, dan sustento a esta trama de gran acción y suspenso.",
+            "description": "La licenciada en Arte Minerva Molé es enviada desde su Francia natal a Barcelona, donde deberá tomar contacto con el capitán de Policía Jordi Betancourt. Un extranjero ha donado unas pinturas valiosas al museo donde se desempeña Minerva, para luego desaparecer sin dejar rastros. Una misteriosa organización denominada \"Los Benefactores\" entra en escena, obligando a redoblar los esfuerzos de Francia y España, también Canadá, para romper un entramado de siniestralidades que se están desarrollando en Europa por parte de la misma. Implantes de microchips, asesinatos y el involucramiento de personajes simples saliendo de sus opacos rincones, dan sustento a esta trama de gran acción y suspenso.",
+            "get_it": "Conseguirlo"
+        },
+        {
+            "title": "La Octava Gaveta (El Legado Templario)",
+            "description": "Una cadena de hallazgos tuvo lugar en las instalaciones de una casa señorial situada en la localidad de Cañuelas, Pcia. de Buenos Aires. Abel Zaldívar no imaginó jamás que la historia familiar le podría deparar una sorpresa semejante, en ocasión de acudir a poner orden en documentos paternos. ¿Qué tenía que ver él con los antiguos Caballeros Templarios? A su juicio, absolutamente nada. Sin embargo, el inesperado hallazgo lo vería envuelto en aventuras inusitadas, las cuales, muy a su pesar, debería asumir. Cuando Historia y actualidad se conjugan al unísono, nos deparan una trama de envolventes características, tal las reflejadas a través de las páginas de La Octava Gaveta.",
             "get_it": "Conseguirlo"
         }
     ],
@@ -38,8 +43,8 @@
     },
     "about": {
         "title": "María Susana Sarlat",
-        "desc_1": "Biografía breve lorem ipsum dolor sit amet, consectetur adipiscing elit. Etiam volutpat massa sit amet euismod ultrices.",
-        "desc_2": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Etiam volutpat massa sit amet euismod ultrices."
+        "desc_1": "Escritora argentino-canadiense dedicada mayormente a novelas históricas, quien ha incursionado asimismo con éxito en el género policial y más aún, en el terreno no siempre fácil de la intriga internacional.",
+        "desc_2": "Composiciones ensayísticas y poéticas integran su acervo profesional, muy marcado por viajes a diferentes lugares del mundo. Su curiosidad innata y su tendencia a la investigación de los distintos tópicos que gusta de abordar le han facilitado un sitio dentro de la comunidad de autores europeos, mayoritariamente volcados al estudio sobre la antigua Orden del Temple."
     },
     "contact": {
         "title": "Contactame",
