@@ -1,20 +1,27 @@
+import Image from 'next/image';
 import Link from 'next/link';
-// Removed unused Button import
 
 interface BookSectionProps {
   title: string;
   description: string;
   imageAlt: string;
+  imageSrc: string;
   reverse?: boolean;
   getItText: string;
 }
 
-export function BookSection({ title, description, imageAlt, reverse = false, getItText }: BookSectionProps) {
+export function BookSection({ title, description, imageAlt, imageSrc, reverse = false, getItText }: BookSectionProps) {
   return (
     <section className="w-full max-w-6xl px-4 md:px-8 py-16 flex flex-col md:flex-row items-center gap-12 md:gap-24">
       {/* Image Block */}
-      <div className={`w-full md:w-1/3 aspect-[3/4] bg-stone-300 shadow-xl ${reverse ? 'md:order-2' : ''}`} aria-label={imageAlt}>
-        {/* Placeholder for Book Image */}
+      <div className={`w-full md:w-1/3 aspect-[3/4] relative shadow-xl overflow-hidden ${reverse ? 'md:order-2' : ''}`}>
+        <Image
+          src={imageSrc}
+          alt={imageAlt}
+          fill
+          className="object-cover object-center"
+          sizes="(max-width: 768px) 100vw, 33vw"
+        />
       </div>
 
       {/* Content Block */}

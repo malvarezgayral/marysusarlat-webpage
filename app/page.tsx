@@ -11,6 +11,15 @@ import { useTranslation } from "react-i18next";
 export default function Home() {
   const { t } = useTranslation();
 
+  // Book cover images — order matches the 'books' array in all translation files
+  const BOOK_IMAGES = [
+    '/imgs/elJardinKlingsor.jpeg',
+    '/imgs/laCasaFox.jpeg',
+    '/imgs/laDesaparicionDonanteFrances.jpeg',
+    '/imgs/laOctavaGaveta.jpeg',
+  ];
+
+
   return (
     <main className="min-h-screen flex flex-col items-center w-full bg-background overflow-x-hidden text-foreground">
       <Header />
@@ -25,6 +34,7 @@ export default function Home() {
             title={book.title}
             description={book.description}
             imageAlt={`Cover of ${book.title}`}
+            imageSrc={BOOK_IMAGES[index] ?? ''}
             reverse={index % 2 !== 0}
             getItText={book.get_it}
           />

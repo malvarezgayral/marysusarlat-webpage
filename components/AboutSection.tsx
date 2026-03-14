@@ -1,5 +1,6 @@
 'use client';
 
+import Image from 'next/image';
 import { useTranslation } from 'react-i18next';
 
 export function AboutSection() {
@@ -7,10 +8,17 @@ export function AboutSection() {
 
   return (
     <section id="about" className="w-full max-w-6xl px-4 md:px-8 py-24 flex flex-col md:flex-row items-center gap-12 md:gap-16">
-      <div className={`w-full md:w-5/12 aspect-square bg-stone-300 shadow-xl`} aria-label="Profile Image">
-        {/* Placeholder for Profile Image */}
+      <div className={`w-full md:w-5/12 aspect-square relative shadow-xl overflow-hidden`}>
+        <Image
+          src="/imgs/mariaSuSarlatPerfilFoto.png"
+          alt="María Susana Sarlat"
+          fill
+          className="object-cover object-top"
+          sizes="(max-width: 768px) 100vw, 41vw"
+          priority
+        />
       </div>
-      
+
       <div className="w-full md:w-7/12">
         <h2 className="font-display text-5xl md:text-6xl text-foreground mb-6">
           {t('about.title')}
