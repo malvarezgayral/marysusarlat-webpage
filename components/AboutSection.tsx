@@ -23,10 +23,10 @@ export function AboutSection() {
         <h2 className="text-5xl md:text-6xl text-foreground mb-6">
           {t('about.title')}
         </h2>
-        <p className="md:text-lg leading-relaxed text-foreground/80 mb-4 font-sans">
+        <p className="md:text-lg text-justify leading-relaxed text-foreground/80 mb-4">
           {t('about.desc_1')}
         </p>
-        <p className="md:text-lg leading-relaxed text-foreground/80 font-sans">
+        <p className="md:text-lg text-justify leading-relaxed text-foreground/80">
           {t('about.desc_2')}
         </p>
       </div>

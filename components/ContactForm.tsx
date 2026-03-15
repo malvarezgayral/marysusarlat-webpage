@@ -83,7 +83,7 @@ export function ContactForm() {
         <Button
           type="submit"
           disabled={pending}
-          className="self-start mt-4 cursor-pointer"
+          className="self-center mt-4 !bg-[#3a3620] rounded-lg cursor-pointer"
         >
           {pending ? t('contact.form.sending') : t('contact.form.submit')}
         </Button>

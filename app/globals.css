@@ -15,7 +15,8 @@
   /* Design System Colors from design.md */
   --background: #EFEBD6;
   --highlight: #FCF8E4;
-  --foreground: #333333;
+  --foreground: #333333; 
+  --lala: #1f1e14; 
   --accent: #e8d15d;
 }
 
@@ -31,7 +32,7 @@
   }
 }
 
-@keyframes blink-brown {
+/* @keyframes blink-brown {
   0%, 100% {
     background-color: #9389bf;
   }
@@ -42,7 +43,7 @@
 
 .animate-blink-brown:hover {
   animation: blink-brown 3s infinite;
-}
+} */
 
 /* WAVES DIVIDER TOP */
 .custom-shape-divider-top-1773545066 {

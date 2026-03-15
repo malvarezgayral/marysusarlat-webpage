@@ -16,7 +16,7 @@ export function CTASection({ id, title, linkText, linkHref, className = "" }: CT
       </h2>
       <Link 
         href={linkHref}
-        className="text-lg border-b border-foreground pb-1 hover:text-stone-500 hover:border-stone-500 transition-colors text-foreground"
+        className="text-lg border-b border-foreground hover:scale-105 transition-scale duration-300 text-foreground"
       >
         {linkText}
       </Link>
