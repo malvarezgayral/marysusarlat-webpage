@@ -31,7 +31,7 @@ export function LanguageToggle() {
   return (
     <button
       onClick={toggleLanguage}
-      className="fixed cursor-pointer top-6 right-6 z-50 bg-[#6b6346] border border-foreground/20 rounded-full px-4 py-2 text-sm font-sans font-medium animate-blink-brown hover:border-accent shadow-lg transition-all text-foreground"
+      className="fixed cursor-pointer top-6 right-6 z-50 text-foreground font-medium bg-highlight border-2 border-foreground/40 rounded-full px-4 py-2 shadow-lg/20 hover:border-accent hover:shadow-lg/50 transition-all duration-300"
       aria-label="Toggle Language"
     >
       {i18n.language.toUpperCase()}

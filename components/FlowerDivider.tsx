@@ -1,7 +1,7 @@
 export function FlowerDivider({ className }: { className?: string }) {
   return (
     <div className={`flex items-center justify-center w-full my-2 ${className}`}>
-      <div className="h-px bg-foreground flex-grow max-w-[30%] hidden md:block"></div>
+      <div className="h-px bg-foreground flex-grow max-w-[30%] md:block"></div>
       
       {/* Central Flower Motif (Simplified representation of the reference) */}
       <svg 
@@ -18,7 +18,7 @@ export function FlowerDivider({ className }: { className?: string }) {
         <path d="M55 15 C55 15 45 12 40 15 C45 18 55 15 55 15 Z" />
       </svg>
       
-      <div className="h-px bg-foreground flex-grow max-w-[30%] hidden md:block"></div>
+      <div className="h-px bg-foreground flex-grow max-w-[30%] md:block"></div>
     </div>
   );
 }
