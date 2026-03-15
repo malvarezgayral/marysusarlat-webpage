@@ -20,13 +20,13 @@ export function AboutSection() {
       </div>
 
       <div className="w-full md:w-7/12">
-        <h2 className="font-display text-5xl md:text-6xl text-foreground mb-6">
+        <h2 className="text-5xl md:text-6xl text-foreground mb-6">
           {t('about.title')}
         </h2>
-        <p className="text-base md:text-lg leading-relaxed text-foreground/80 mb-4 font-sans">
+        <p className="md:text-lg leading-relaxed text-foreground/80 mb-4 font-sans">
           {t('about.desc_1')}
         </p>
-        <p className="text-base md:text-lg leading-relaxed text-foreground/80 font-sans">
+        <p className="md:text-lg leading-relaxed text-foreground/80 font-sans">
           {t('about.desc_2')}
         </p>
       </div>

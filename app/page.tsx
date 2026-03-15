@@ -27,7 +27,7 @@ export default function Home() {
       {/* Wave Separator 1 */}
       <div className="w-full h-12 md:h-24 bg-white rounded-t-[50%] md:rounded-t-[80%] -mb-8 md:-mb-12 z-0 relative transform scale-x-125 opacity-40"></div>
       
-      <div id="books" className="flex flex-col w-full items-center gap-12 py-12 relative z-10">
+      <div id="books" className="bg-secondary-background flex flex-col w-full items-center gap-12 py-12 relative z-10">
         {(t('books', { returnObjects: true }) as Array<{ title: string; description: string; get_it: string }>).map((book, index) => (
           <BookSection 
             key={index}
@@ -67,7 +67,7 @@ export default function Home() {
 
       {/* Contact Section */}
       <section id="contact" className="w-full max-w-2xl px-4 md:px-8 pb-24 pt-12 flex flex-col items-center">
-         <h2 className="font-display text-5xl md:text-6xl text-foreground mb-8 md:mb-12 text-center">
+         <h2 className="text-5xl md:text-6xl text-foreground mb-8 md:mb-12 text-center">
             {t('contact.title')}
          </h2>
          <ContactForm />

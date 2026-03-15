@@ -26,11 +26,11 @@ export function BookSection({ title, description, imageAlt, imageSrc, reverse = 
 
       {/* Content Block */}
       <div className={`w-full md:w-2/3 flex flex-col items-start gap-4 ${reverse ? 'md:order-1' : ''}`}>
-        <h2 className="font-display text-5xl md:text-6xl text-foreground">{title}</h2>
-        <p className="text-base md:text-lg leading-relaxed text-foreground/80">
+        <h2 className="text-5xl md:text-6xl text-foreground">{title}</h2>
+        <p className="md:text-lg leading-relaxed text-foreground/80">
           {description}
         </p>
-        <Link href="#" className="font-sans underline underline-offset-4 text-foreground hover:text-stone-600 mt-2">
+        <Link href="#" className="underline underline-offset-4 text-foreground hover:text-stone-600 mt-2">
           {getItText}
         </Link>
       </div>

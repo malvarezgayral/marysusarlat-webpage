@@ -18,7 +18,7 @@ export function Header() {
   return (
     <header className="w-full pt-8 md:pt-12 pb-4 md:pb-8 px-4 flex flex-col items-center bg-transparent z-10">
       <div className="text-center mb-4">
-        <h1 className="text-6xl md:text-8xl font-display text-foreground">
+        <h1 className="text-6xl md:text-8xl text-foreground">
           {t('header.title')}
         </h1>
       </div>
@@ -30,7 +30,7 @@ export function Header() {
           <Link 
             key={item.href}
             href={item.href} 
-            className="text-lg font-sans text-foreground hover:text-stone-600 transition-colors"
+            className="text-2xl font-serif text-foreground hover:text-stone-600 transition-colors"
           >
             {item.name}
           </Link>

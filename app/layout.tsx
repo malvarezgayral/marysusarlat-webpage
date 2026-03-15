@@ -1,5 +1,5 @@
 import type { Metadata } from "next";
-import { Inter, Grey_Qo } from "next/font/google";
+import { Inter, Grey_Qo, Playfair_Display } from "next/font/google";
 import "./globals.css";
 import { Providers } from "./providers";
 import { LanguageToggle } from "@/components/LanguageToggle";
@@ -15,6 +15,12 @@ const greyQo = Grey_Qo({
   subsets: ["latin"],
 });
 
+const playfairDisplay = Playfair_Display({
+  weight: "400",
+  variable: "--font-playfair-display",
+  subsets: ["latin"],
+});
+
 export const metadata: Metadata = {
   title: "María Su Sarlat",
   description: "Proyectos de arquitectura y diseño con un enfoque atemporal y esencial.",
@@ -26,9 +32,9 @@ export default function RootLayout({
   children: React.ReactNode;
 }>) {
   return (
-    <html lang="en">
+    <html lang="en" className={`${inter.variable} ${greyQo.variable} ${playfairDisplay.variable}`}>
       <body
-        className={`${inter.variable} ${greyQo.variable} antialiased bg-background text-foreground`}
+        className="antialiased bg-background text-foreground"
       >
         <Providers>
           <LanguageToggle />
