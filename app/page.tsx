@@ -15,9 +15,9 @@ export default function Home() {
   // Book cover images — order matches the 'books' array in all translation files
   const BOOK_IMAGES = [
     '/imgs/elJardinKlingsor.jpeg',
-    '/imgs/laCasaFox.jpeg',
-    '/imgs/laDesaparicionDonanteFrances.jpeg',
-    '/imgs/laOctavaGaveta.jpeg',
+    '/imgs/laCasaFox.webp',
+    '/imgs/laDesaparicionDonanteFrances.jpg',
+    '/imgs/laOctavaGaveta.jpg',
   ];
 
 
