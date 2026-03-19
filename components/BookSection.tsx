@@ -7,10 +7,13 @@ interface BookSectionProps {
   imageAlt: string;
   imageSrc: string;
   reverse?: boolean;
-  getItText: string;
+  getItText: [string, string];
+  link: string;
 }
 
-export function BookSection({ title, description, imageAlt, imageSrc, reverse = false, getItText }: BookSectionProps) {
+export function BookSection({ title, description, imageAlt, imageSrc, reverse = false, getItText, link }: BookSectionProps) {
+  const isUnavailable = link === '#';
+
   return (
     <section className="w-full max-w-6xl px-4 md:px-8 py-16 flex flex-col md:flex-row items-center gap-12 md:gap-24">
       {/* Image Block */}
@@ -30,9 +33,20 @@ export function BookSection({ title, description, imageAlt, imageSrc, reverse = 
         <p className="md:text-lg text-justify leading-relaxed text-foreground/80">
           {description}
         </p>
-        <Link href="#" className="underline underline-offset-4 text-foreground hover:scale-105 duration-300 mt-2">
-          {getItText}
-        </Link>
+        {isUnavailable ? (
+          <p className="mt-2 text-foreground/60 italic">
+            {getItText[0]}
+          </p>
+        ) : (
+          <Link
+            href={link}
+            target="_blank"
+            rel="noopener noreferrer"
+            className="mt-2 underline underline-offset-4 text-foreground hover:scale-105 duration-300"
+          >
+            {getItText[1]}
+          </Link>
+        )}
       </div>
     </section>
   );
