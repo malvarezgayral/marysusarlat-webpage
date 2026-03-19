@@ -10,7 +10,7 @@ export function AboutSection() {
     <section id="about" className="w-full max-w-6xl px-4 md:px-8 py-24 flex flex-col md:flex-row items-center gap-12 md:gap-16">
       <div className={`w-2/3 md:w-5/12 aspect-square relative shadow-xl overflow-hidden`}>
         <Image
-          src="/imgs/mariaSuSarlatPerfilFoto.jpg"
+          src="/imgs/mariaSuSarlatPerfilFotoMejorada.png"
           alt="María Susana Sarlat"
           fill
           className="object-cover object-top"
