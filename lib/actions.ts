@@ -3,7 +3,8 @@
 import { Resend } from 'resend';
 
 // Correo destino — modificar aquí si cambia en el futuro
-const TEST_EMAIL = 'mrmanuelalvarez@gmail.com'
+const TEST_EMAIL = 'mrmanuelalvarez@gmail.com';
+const TEST_EMAIL2 = 'belenfernandezgayral@gmail.com';
 const RECIPIENT_EMAIL = 'sarlatmariasusana@gmail.com';
 
 const resend = new Resend(process.env.RESEND_API_KEY);
@@ -16,7 +17,7 @@ export async function submitContactForm(formData: FormData) {
 
   const { error } = await resend.emails.send({
     from:     'Mary Su Sarlat <onboarding@resend.dev>',
-    to:       [RECIPIENT_EMAIL],
+    to:       [TEST_EMAIL2],
     replyTo:  email,
     subject:  `Nuevo mensaje de contacto — ${name} ${surname}`,
     html: `

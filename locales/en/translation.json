@@ -6,32 +6,50 @@
             "interviews": "Interviews",
             "travels": "Travels",
             "about": "About me",
-            "contact": "Contact"
+            "contact": "Contact",
+            "menu": "Navigation menu"
         }
     },
     "books": [
         {
-            "title": "The Garden of Klingsor",
+            "title": "El Jardín de Klingsor",
             "description": "Saúl Cáceres, a famed orthopedic surgeon, has lost his soul, but he doesn't know it. A close person has realized this and urges him to take a trip to the beautiful Amalfi Coast in Italy. After meditating on it, Saúl accepts and departs, unknowingly, towards an adventure that will change his life completely. It will happen that in Ravello, and under the spell of Wagnerian music born in that place, life will unveil unexpected situations, obvious to everyone but him, showing him that magic exists when the heart opens to new experiences.",
-            "get_it": "Get it"
+            "get_it": [
+                "This title is not for sale",
+                "Get it"
+            ],
+            "link": "#"
         },
         {
-            "title": "Fictionalized History of the Fox House",
+            "title": "Historia Novelada de la Casa Fox",
             "description": "Through a combination of history and novel, \"History of the Fox House\" follows the journey of Don Miguel de Fox, a descendant of Aragonese nobles, as he fights to protect his heritage and the memory of his ancestors. From the time of the Templars to modern Spain, Miguel discovers the secrets and challenges of his lineage, facing legal and social problems while honoring his family's history. The story reveals historical connections with the ancient Knights Templar and unravels cultural and religious conflicts in a town where ancestral memory faces complex modernity.",
-            "get_it": "Get it"
+            "get_it": [
+                "This title is not for sale",
+                "Get it"
+            ],
+            "link": "#"
         },
         {
-            "title": "The Disappearance of the French Donor",
+            "title": "La Desaparición del Donante Francés",
             "description": "Art graduate Minerva Molé is sent from her native France to Barcelona, where she must make contact with Police Captain Jordi Betancourt. A foreigner has donated valuable paintings to the museum where Minerva works, only to disappear without a trace. A mysterious organization called \"The Benefactors\" enters the scene, forcing France and Spain, as well as Canada, to redouble their efforts to break a network of sinister events developing in Europe by them. Microchip implants, murders, and the involvement of simple characters emerging from their opaque corners support this plot of great action and suspense.",
-            "get_it": "Get it"
+            "get_it": [
+                "This title is not for sale",
+                "Get it"
+            ],
+            "link": "#"
         },
         {
-            "title": "The Eighth Drawer (The Templar Legacy)",
+            "title": "La Octava Gaveta (El Legado Templario)",
             "description": "A chain of discoveries took place in a stately manor in Cañuelas, Province of Buenos Aires. Abel Zaldívar never imagined that his family history could hold such a surprise, when he set out to organize his father's documents. What did he have to do with the ancient Knights Templar? In his view, absolutely nothing. Yet the unexpected find would draw him into extraordinary adventures that, much to his dismay, he would have to take on. When History and the present intertwine in unison, they yield a plot of compelling depth — just as reflected through the pages of The Eighth Drawer.",
-            "get_it": "Get it"
+            "get_it": [
+                "This title is not for sale",
+                "Get it"
+            ],
+            "link": "#"
         }
     ],
     "cta": {
+        "coming_soon": "Coming soon!",
         "interviews": {
             "title": "Interested in knowing more about my work?",
             "link": "Listen to my interviews"
