@@ -61,6 +61,7 @@ export default function Home() {
             title={t('cta.interviews.title')}
             linkText={t('cta.interviews.link')}
             linkHref="#"
+            comingSoonText={t('cta.coming_soon')}
           />
 
           <FlowerDivider />
@@ -70,6 +71,7 @@ export default function Home() {
             title={t('cta.travels.title')}
             linkText={t('cta.travels.link')}
             linkHref="#"
+            comingSoonText={t('cta.coming_soon')}
           />
         </div>
       </div>

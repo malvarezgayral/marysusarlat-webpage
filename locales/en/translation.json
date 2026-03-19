@@ -48,6 +48,7 @@
         }
     ],
     "cta": {
+        "coming_soon": "Coming soon!",
         "interviews": {
             "title": "Interested in knowing more about my work?",
             "link": "Listen to my interviews"

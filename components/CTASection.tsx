@@ -8,10 +8,11 @@ interface CTASectionProps {
   title: string;
   linkText: string;
   linkHref: string;
+  comingSoonText: string;
   className?: string; // For adding custom background shapes if needed
 }
 
-export function CTASection({ id, title, linkText, linkHref, className = "" }: CTASectionProps) {
+export function CTASection({ id, title, linkText, linkHref, comingSoonText, className = "" }: CTASectionProps) {
   const [openModal, setOpenModal] = useState(false);
 
   return (
@@ -51,7 +52,7 @@ export function CTASection({ id, title, linkText, linkHref, className = "" }: CT
             </button>
 
             <h3 id="coming-soon-title" className="text-2xl text-center">
-              ¡Próximamente!
+              {comingSoonText}
             </h3>
           </div>
         </div>

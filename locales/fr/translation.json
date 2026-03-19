@@ -48,6 +48,7 @@
         }
     ],
     "cta": {
+        "coming_soon": "Bientôt disponible !",
         "interviews": {
             "title": "Intéressé à en savoir plus sur mon travail ?",
             "link": "Écoutez mes entretiens"
