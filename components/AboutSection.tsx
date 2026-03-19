@@ -8,7 +8,7 @@ export function AboutSection() {
 
   return (
     <section id="about" className="w-full max-w-6xl px-4 md:px-8 py-24 flex flex-col md:flex-row items-center gap-12 md:gap-16">
-      <div className={`w-full md:w-5/12 aspect-square relative shadow-xl overflow-hidden`}>
+      <div className={`w-2/3 md:w-5/12 aspect-square relative shadow-xl overflow-hidden`}>
         <Image
           src="/imgs/mariaSuSarlatPerfilFoto.jpg"
           alt="María Susana Sarlat"
@@ -20,7 +20,7 @@ export function AboutSection() {
       </div>
 
       <div className="w-full md:w-7/12">
-        <h2 className="text-5xl md:text-6xl text-foreground mb-6">
+        <h2 className="text-5xl md:text-6xl text-center md:text-start text-foreground mb-6">
           {t('about.title')}
         </h2>
         <p className="md:text-lg text-justify leading-relaxed text-foreground/80 mb-4">

@@ -34,7 +34,7 @@ export function ContactForm() {
       <form
         id="contact-form"
         action={handleSubmit}
-        className="flex flex-col gap-6 w-full max-w-lg font-sans"
+        className="flex flex-col gap-6 w-5/6 md:w-full max-w-lg font-sans"
       >
         <div className="flex flex-col md:flex-row gap-4">
           <div className="flex flex-col gap-2 w-full">

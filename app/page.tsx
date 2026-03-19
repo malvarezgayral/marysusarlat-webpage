@@ -26,7 +26,7 @@ export default function Home() {
       <Header />
 
       {/* BOOKS SECTION */}
-      <div id="books" className="bg-highlight flex flex-col w-full items-center gap-12 py-12 relative z-10">
+      <div id="books" className="bg-highlight flex flex-col w-full items-center md:gap-12 py-20 relative z-10">
         <div className="custom-shape-divider-top-1773545066">
           <img src="/wavesOpacityTop.svg" alt="" className="relative block w-[calc(175%+1.3px)] h-[79px] object-cover object-top" aria-hidden="true" />
         </div>
@@ -94,7 +94,7 @@ export default function Home() {
       </div>
 
       {/* CONTACT SECTION */}
-      <section id="contact" className="w-full max-w-2xl px-4 md:px-8 pb-24 pt-12 flex flex-col items-center">
+      <section id="contact" className="w-full max-w-2xl px-4 md:px-8 pb-10 pt-12 flex flex-col items-center">
         <h2 className="text-5xl md:text-6xl text-foreground mb-8 md:mb-12 text-center">
           {t('contact.title')}
         </h2>
